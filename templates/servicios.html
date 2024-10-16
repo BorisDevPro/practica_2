@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>TechNova Development</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>TECHNOVA DEVELOPMENT</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="index.html" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="quienes_somos.html" onclick="seleccionar(this)">QUIENES SOMOS</a></li>
+                            <li><a href="servicios.html" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="noticias.html" onclick="seleccionar(this)">NOTICIAS</a></li>
+                            <li><a href="contacto.html" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h2>SERVICIOS</h2>
+                <p class="descripcion">En TechNova Development , ofrecemos una gama de servicios diseñados para impulsar la transformación digital de las empresas. Desde el desarrollo de software y aplicaciones móviles hasta soluciones en la nube y consultoría tecnológica, nos especializamos en crear herramientas digitales personalizadas que mejoran la eficiencia y el rendimiento de nuestros clientes. Nuestro enfoque está en brindar soluciones tecnológicas innovadoras ya medida, adaptadas a las necesidades específicas de cada proyecto.</p>
+                <br>
+                <a href="#servicios">Ir a Servicios</a>
+            </div>
+        </div>
+    </section>
+    <section id="servicios">
+        <h3 class="titulo-seccion">NUESTROS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo de Software Personalizado</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Creamos soluciones a medida para automatizar procesos, mejorar la gestión interna y potenciar el crecimiento de tu empresa.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Desarrollo de Aplicaciones Móviles</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Diseñamos aplicaciones móviles funcionales y amigables para iOS y Android, que responden a las necesidades de tus usuarios.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Desarrollo Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p> Construimos sitios web modernos, escalables y optimizados para una experiencia de usuario fluida y eficiente.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Soluciones en la Nube</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Implementamos infraestructuras en la nube que mejoran la eficiencia operativa, reducen costos y permiten la escalabilidad.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Consultoría Tecnológica</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Te guiamos en la transformación digital de tu negocio, ayudándote a elegir las mejores herramientas y estrategias tecnológicas.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Integración de API</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Conectamos tus sistemas con servicios externos para optimizar tus operaciones y mejorar la interacción entre plataformas.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
